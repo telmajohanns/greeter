@@ -1,1 +1,1 @@
-java src\Main.java
+java -cp bin src\Main.java

@@ -1,3 +1,6 @@
+import is.hi.tej2.hbv202g.backend.Greeter;
+import is.hi.tej2.hbv202g.frontend.UserInterface;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,11 +9,11 @@ public class Main {
         String greeting;
 
         greeter.setEnglish();
-        greeting=greeter.greet();
+        greeting = greeter.greet();
         ui.show(greeting);
 
         greeter.setGerman();
-        greeting=greeter.greet();
+        greeting = greeter.greet();
         ui.show(greeting);
     }
 
